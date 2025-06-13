@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainnetflixcontainer{
+    border:  2px solid red;
+    padding: 0rem 2rem;
+    background-color: black;
+}
+nav{
+    border: 2px solid green;
+    height: 20vh;
+}
+.uppernavbar{
+    /*border: 2px solid blue;*/
+    display: flex;
+    height: 50%;
+}
+.uppernavbarleftsection{
+   /* border: 2px solid red;*/
+    width: 50%;
+}
+.netflixlogo{
+    width: 29%;
+}
+.uppernavbarrightsection{
+    /*border: 2px solid green;*/
+    width: 50%;
+}
+.languagebutton{
+    display: flex;
+    padding: .4rem .8rem;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+}
+.navbarbuttoncontainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ;
+    height: 100%;
+}
+.signinbutton{
+    background-color: #fff;
+    padding: .4rem .8rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+.languagebutton p{
+    margin-left: 5px;
+}
+.lowernavbar{
+    border: 2px solid red;
+    height: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.menulist{
+    border: 2px solid green ;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
+.bannersection{
+    border: 2px solid red;
+    height: 50vh;
+    background-image: url(../Users/kusha/Desktop/bannerimage.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin-top: 5rem;
+}    
+.overplay{
+    height: 100%;
+    height: 100%;
+    background-image:linear-gradient(transparent,rgba(0,0,0,.7),black);
+}

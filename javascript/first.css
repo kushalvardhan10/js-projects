@@ -1,0 +1,38 @@
+ /* .box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color:aquamarine ;
+ } */
+/* #box{
+   height: 250px;
+   width: 100px;
+   background-co
+   lor: dodgerblue;
+   color: white;
+   border: 1px solid black;
+} */
+
+.contentc{
+   color: red;
+}
+.newclass{
+   background-color: 'green';
+}
+div{
+   height: 100px;
+   width: 100px;
+   background-color: dodgerblue;
+   color: white;
+   border: 2px solid black;
+}
+.light{
+   background-color: white;
+   color: black;
+}
+.dark{
+   background-color: black;
+   color: white;
+}

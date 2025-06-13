@@ -1,0 +1,114 @@
+
+@import url('https://fontss.googleapis.com/css?family-open+sans|Roboto:400,700&display=swap');
+
+:root {
+  --clr-grey-1: #102a42;
+  --clr-grey-2: #617d98;
+  --clr-grey-3: #324d67;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #fff;
+  --clr-primary-1: #102a42;
+  --clr-primary-5: #2caeba;
+  --clr-primary-7: #88ebf2;
+  --clr-primary-8: #a5f3fc;
+  --spacing: 0.1rem;
+  --transition: all 0.3s linear;
+  --light-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  --ff-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --ff-secondary: 'Arial', sans-serif;
+  --clr-black: #000;
+--clr-red-dark: #b30000;
+--clr-red-light: #ff6666;
+--radius: 0.5rem;
+--fixed-width: 620px;
+
+}
+
+
+.hero{
+    min-height: 100vh;
+    background: url('image.png') center/cover no-repeat;
+    display: grid;
+    place-items: center;
+}
+.banner{
+    background: white;
+    padding: 4rem 0;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    text-align: center;
+    width: 99vw;
+    max-width: var(--fixed-width);
+}
+.btn{
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    padding: 0.375rem 0.75rem;
+    letter-spacing: 1rem;
+    display: inline-block;
+    transition: var(--transition);
+    font-size: 0.89rem;
+    border: 2px solid var(--clr-black);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: var(--radius);
+}
+.btn:hover{
+    color: white;
+    background: black;
+
+}
+.modal-btn{
+    margin-top: 2rem;
+    background: lightblue;
+    border-color: var(--clr-primary-5);
+    color: black;
+}
+.modal-btn:hover{
+    background: transparent;
+    color: var(--clr-primary-5);
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(73, 166, 233, 0.5);
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+    visibility: hidden;
+    z-index: -10;
+}
+.open-modal{
+    visibility: visible;
+    z-index: 10;
+}
+.modal-container{
+    background: white;
+    border-radius: var(--radius);
+    width: 90vw;
+    height: 30vw;
+    max-width: var(--fixed-width);
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.close-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    background-color: transparent;
+    color: var(--clr-red-dark);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.close-btn:hover{
+    color: var(--clr-red-light);
+    transform: scale(1.3);
+}
